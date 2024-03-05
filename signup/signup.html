@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup_Form</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <img class="LF" src="LF.gif" alt="smart city"> -->
+    <div class="container">
+        <h1>welcome to the smart world</h1>
+        <p>Enter your details below</p>
+        <form action="connection.php" method="POST">
+            <input type="text" name="user_name" id="name" placeholder="Enter your username">
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+            <input type="password" name="confirm" id="password2" placeholder="confirm your password">
+            <input type="text" name="name" id="name" placeholder="your name">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="number" name="phone" id="phone" placeholder="Enter your ph. number">
+            
+            <button class="btn" type="submit">Signup</button>  
+          </form>              
+            <form action="signup.html" method="GET">
+              <button class="btn">Cancel</button>
+            </form>
+    </div>
+</body>
+</html>

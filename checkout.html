@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>Checkout Page</title>
+
+    <link rel="stylesheet" href="css/checkout_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+    <header>
+
+      <button type="button" class="box">Go back</button>
+      <img src="" alt="">
+      <button type="button" class="box">Sign in</button>
+
+    </header>
+
+    <main>
+
+      <form action="#" method="post">
+
+        <section class="orderSection">
+
+          <div class="orderWrapper">
+
+            <div class="orderSummary">
+              <h3>Your order</h3>
+              <table>
+                <tr>
+                  <th>Items</th>
+                  <th>Details</th>
+                  <th>Price</th>
+                  <th>Delivery</th>
+                </tr>
+                <tr>
+                  <td>2 documents</td>
+                  <td>2 languages</td>
+                  <td>$ 696.06</td>
+                  <td>48 hours*</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="orderButtons">
+              <input type="submit" class="box" name="placeOrder" value="Place Order">
+              <button class="box printButton" type="button">Print a quote</button>
+            </div>
+
+          </div>
+
+          <div class="helpCenter">
+            <h3>Help center</h3>
+            <p>If you need assistance while placing your order, contact one of our beloved Project Manager by phone or email.</p>
+            <address>
+              <a href="tel:+971(0)555555">+971(0)555 555</a>
+              <a href="mailto:help@qtest.com">help@qtest.com</a>
+            </address>
+          </div>
+
+        </section>
+
+        
+
+        \
+
+          
+
+          
+
+
+        </fieldset>
+
+    
+
+        <fieldset class="signUp">
+
+          <h2>Sign up and choose a payment method</h2>
+
+          <p>Already have an account with us? <a href="#">Sign in</a>.</p>
+
+          <div class="personalInfo">
+
+            <p>
+              <label for="name">Full Name</label>
+              <input type="text" name="name" class="box" id="name" pattern="[A-Za-z' -]+" minlength="2" maxlength="50" required placeholder=" ">
+            </p>
+
+            <p>
+              <label for="email">Email Adress</label>
+              <input type="email" name="email" class="box" id="email"  pattern="[A-Za-z0-9._-]+@[a-z]+\.[a-z]{2,4}$" required placeholder=" ">
+            </p>
+
+            <p>
+             <label for="password">Choose a Password</label>
+              <input type="password" name="password" class="box" id="password" required pattern="(?=.[0-9])(?=.[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder=" ">
+            </p>
+
+          </div>
+
+          <div class="choicesWrapper paymentType">
+
+            <input type="radio" id="visa" name="payment" value="visa" required>
+            <label for="visa" class="box"></label>
+
+            <input type="radio" id="payPal" name="payment" value="payPal">
+            <label for="payPal" class="box"></label>
+
+            <input type="radio" id="amazon" name="payment" value="amazon">
+            <label for="amazon" class="box"></label>
+
+          </div>
+
+          <div class="choicesWrapper paymentInfo">
+
+            <p>
+              <label for="number">Card Number</label>
+              <input type="text" name="cardNumber" class="box" id="number" pattern="[0-9]{16}" required>
+            </p>
+
+            <p>
+              <label for="date">Expiry Date</label>
+              <input type="date" name="expiryDate" class="box" id="date" required>
+            </p>
+
+            <p>
+              <label for="code">Code</label>
+              <input type="text" name="code" class="box" id="code" pattern="[0-9]{3}" required>
+            </p>
+
+          </div>
+
+        </fieldset>
+
+        <div class="summingWrapper">
+
+          <input type="checkbox" name="agreement" value="agree" id="agreement" required>
+          <label for="agreement">I agree to the <a href="#">Terms &amp; Conditions</a></label>
+
+          <input type="submit" class="box" name="placeOrder" value="Place Order">
+
+          <button class="box printButton" type="button">Print a quote</button>
+
+        </div>
+
+      </form>
+
+    </main>
+
+    <footer>
+
+      <aside class="whatWeDo">
+        <h3>What we do</h3>
+        <p>We provide a full range of language services including content development, document, website and social media accounts translations.</p>
+      </aside>
+
+      <div class="office">
+        <h3>Our maain office</h3>
+        <address>
+          <ul>
+            <li>Dubai, UAE</li>
+            <li>P.O. Box: 502735</li>
+            <li>Phone: <a href="tel:+971(0)44278128">+971(0)44278128</a></li>
+          </ul>
+        </address>
+      </div>
+
+      <div class="contacts">
+        <h3>Connect with us</h3>
+        <ul>
+          <li><a href="#">Facebbok</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Linkedin</a></li>
+        </ul>
+      </div>
+
+      <img src="images/logo_footer.png" alt="">
+
+    </footer>
+
+  </body>
+</html>
